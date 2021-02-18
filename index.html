@@ -25,7 +25,7 @@
 		   { name: 'spells', max: 100 },
 		   { name: 'evil', max: 100 }],
 	  cards,
-	  status: (gs) => `Cash=${gs.value} Spells=${gs.tech} Evil=${gs.evil}`
+	  status: (gs) => `Cash=${gs.cash} Spells=${gs.spells} Evil=${gs.evil}`
 	}
 	dealer = new Dealer (config)
 	dealer.dealFirstCard()
