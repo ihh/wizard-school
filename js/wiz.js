@@ -14,5 +14,6 @@ const cards =
            "Rumors and whispers are the constant curse of magic school. The latest reports suggest that your doppelganger has been spotted in the Art wing. If true, then you must destroy it.",
            "A giant fatberg has been discovered in the sewers underneath the school. You could use magic to clear it!",
            "Your English teacher offers to take your class on a tour of the Infinite Library.",
+           "You are offered the chance to do a rotation in domination and control with Professor Prospero.",
          ] },
        { html: 'Game Over', priority: -1 }]
