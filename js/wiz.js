@@ -13,5 +13,6 @@ const cards =
            "You're surprised by a spot quiz on ethical use of glamors. Will you cheat?",
            "Rumors and whispers are the constant curse of magic school. The latest reports suggest that your doppelganger has been spotted in the Art wing. If true, then you must destroy it.",
            "A giant fatberg has been discovered in the sewers underneath the school. You could use magic to clear it!",
+           "Your English teacher offers to take your class on a tour of the Infinite Library.",
          ] },
        { html: 'Game Over', priority: -1 }]
