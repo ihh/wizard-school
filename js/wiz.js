@@ -15,5 +15,6 @@ const cards =
            "A giant fatberg has been discovered in the sewers underneath the school. You could use magic to clear it!",
            "Your English teacher offers to take your class on a tour of the Infinite Library.",
            "You are offered the chance to do a rotation in domination and control with Professor Prospero.",
+           "A NASA rover will shortly land on Mars, threatening to reveal the location of your Burning Man-themed senior prom. Will you use magic to destroy it?",
          ] },
        { html: 'Game Over', priority: -1 }]
