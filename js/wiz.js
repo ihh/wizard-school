@@ -9,7 +9,7 @@ const cards =
                      card: "You have elected to become a Magical Accountant! This is one of the most mysterious specializations our craft has to offer.<br><br><br>" },
              right: { hint: "Politics",
                       preview: "Politics, the domain of the true artiste",
-                      card: "You have elected to become a Magical Accountant! This is one of the most mysterious specializations our craft has to offer.<br><br><br>" 
+                      card: "You have elected to become a Magical Accountant! This is one of the most mysterious specializations our craft has to offer.<br><br><br>", 
                       reward: { cash: -10, spells: +10, evil: +10 } } }
          ] },
        { html: 'Game Over', priority: -1 }]
