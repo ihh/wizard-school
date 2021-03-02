@@ -20,12 +20,13 @@
 	  carder,
 	  debug: true,
 	  meterIconPrefix: 'meters/',
-	  localStorageKey: 'wizard-school-v0.1',
-	  meters: [{ name: 'cash', max: 100 },
-		   { name: 'spells', max: 100 },
-		   { name: 'evil', max: 100 }],
+	  localStorageKey: 'wizard-school-demo',
+	  meters: [{ name: 'cash', max: 10 },  /* conscientiousness */
+		   { name: 'spells', max: 10 },  /* openness */
+		   { name: 'evil', max: 10 },  /* minus aggreableness */
+		   { name: 'crazy', max: 10 }],  /* neuroticism */
 	  cards,
-	  status: (gs) => `Cash=${gs.cash} Spells=${gs.spells} Evil=${gs.evil}`
+	  status: (gs) => `You are at the level of Magical Novice.`
 	}
 	dealer = new Dealer (config)
 	dealer.dealFirstCard()
